@@ -1,0 +1,197 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+.text{
+    background-color: #3763eb;
+    border-radius: 5px;
+}
+.text1 h3{
+    font-weight: 600;
+    padding: 25px 20px 0 18px;
+    color: azure;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+.text1 p{
+    color: azure;
+    padding: 6px 15px 0 18px;
+    line-height: 1.2;
+}
+.email{
+    padding: 5px 5px 5px 15px;
+    border-radius: 20px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+}
+.submit{
+  
+}
+.text2{
+    background-color:#ffffff;
+    border-radius: 5px;
+    padding: 25px 15px;
+    
+}
+.text2 h4{
+    
+    padding: 15px 10px 0 10px;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.text2 p{
+    color:#606060;
+   
+    padding: 5px 10px 0 15px;
+    
+}
+.text2 a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 
+    6px 20px;
+    color: #ffffff;
+    border: 1px solid #3763eb;
+    font-size: 16px;
+    border-radius: 20px;
+   background-color: #3763eb;
+    
+}
+.bg1{
+    background-color: #ffffff;
+}
+.text3 h6{
+    color: #3763eb;
+    font-size: 18px;
+}
+.text3 h3{
+    font-weight: 600;
+    padding: 10px 0;
+}
+.text3 span{
+  position: relative;
+}
+.text3 span::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 45px;
+    height: 2px;
+   background-color: #3763eb;
+   margin: 18px 0;
+}
+.text3 p{
+    font-size: 16px;
+    color: #606060;
+    padding-top: 18px;
+}
+/* .pic1:hover{
+  background-color: #eef0f1d3;
+  transition: .4s;
+} */
+.pic1{
+   border: 1px solid #b6b5b58f;
+   text-align: center;
+}
+.a{
+    border-bottom: 0;
+    border-right: 0;
+}
+.b{
+    border-bottom: 0;
+    border-right: 0;
+}
+.c{
+    border-bottom: 0;
+    
+}
+.d{
+   
+    border-right: 0;
+}
+.e{
+   
+    border-right: 0;
+}
+.pic1 img{
+   width: 100%;
+   height: auto;
+   filter: opacity(.4);
+   transition: .4s;
+}
+.pic1 img:hover{
+    filter: opacity(1);
+}
+.btn{
+    background-color: #3763eb;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    display: inline-block;
+    padding: 
+    6px 15px;
+    color: #ffffff;
+    border: 1px solid #fff;
+    font-size: 16px;
+    border-radius: 20px;
+
+}
+.btn:hover{
+    border-color: rgb(255, 255, 255);
+}
+.btn::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    z-index: -1;
+    transition: .4s;
+    color: #3763eb;
+    border-radius: 20px;
+}
+.btn:hover::after{
+    width: 100%;
+}
+.get{
+    background-color: #3763eb;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    display: inline-block;
+    padding: 
+    6px 15px;
+    color: #ffffff;
+    border: 1px solid #fff;
+    font-size: 16px;
+    border-radius: 20px;
+
+}
+.get:hover{
+    border-color: rgb(255, 255, 255);
+}
+.get::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background-color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0);
+    z-index: -1;
+    transition: .4s;
+    color: #000000;
+    border-radius: 20px;
+}
+.get:hover::after{
+    width: 100%;
+    
+}
+/* https://saaasha08.github.io/bat/ */
